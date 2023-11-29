@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 50rem;
+    height: 50rem;
+    border: .1rem solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tittle {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cadastro {
+    display: flex;
+    flex-direction: column;
+    width: 45rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastro label,input {
+    margin-bottom: .5rem;
+    width: 20rem;
+}
+
+.cadastro h4 {
+    color: green;
+    visibility: hidden;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    width: 45rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.login label,input {
+    margin-bottom: .5rem;
+    width: 20rem;
+}
+
+.login h4 {
+    color: green;
+    visibility: hidden;
+}
+
+.login h3 {
+    color: red;
+}
+
+
+
+
